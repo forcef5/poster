@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 def GitUpload():
-    os.system('git clone https://github.com/forcef5/poster.git')
+    # os.system('git clone https://github.com/forcef5/poster.git')
     os.system('git add .')
     time.sleep(5)
     os.system('git commit -m "Upload file"')
